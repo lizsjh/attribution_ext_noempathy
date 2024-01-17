@@ -76,7 +76,7 @@ botui.message.add({
         delay:2000,
         loading: true,
         photo: true,
-        content:'I accidentally pulled up the wrong order.'
+        content:'Our order database is currently experiencing some issue'
     });
 }).then(function(){
     return botui.message.add({
@@ -129,7 +129,7 @@ botui.message.add({
         delay:30000,
         loading: true,
         photo: true,
-        content:'It is taking longer than usual because I am still gathering some information to process your request. Please hold on again.'
+        content:'It is taking longer than usual because the product department is not responding at the moment. Please hold on again.'
     });
 }).then(function(){
     return botui.message.add({
